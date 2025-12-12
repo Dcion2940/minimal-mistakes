@@ -7,3 +7,135 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom pink and cottagecore styling for the dog guide
+$rose-background: #fff5f9;
+$rose-border: #f3c2d8;
+$rose-strong: #e07aa8;
+$rose-text: #6b3f53;
+
+body {
+  background-color: $rose-background;
+  background-image:
+    radial-gradient(circle at 10px 10px, rgba(243, 194, 216, 0.35), transparent 16%),
+    radial-gradient(circle at 30px 30px, rgba(252, 221, 235, 0.45), transparent 20%),
+    linear-gradient(90deg, rgba(243, 194, 216, 0.15) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(243, 194, 216, 0.15) 1px, transparent 1px);
+  background-size: 120px 120px, 160px 160px, 24px 24px, 24px 24px;
+  color: $rose-text;
+  font-family: "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+}
+
+a {
+  color: $rose-strong;
+}
+
+a:hover,
+a:focus {
+  color: darken($rose-strong, 10%);
+}
+
+.masthead {
+  background: linear-gradient(135deg, #ffe1ef, #ffd4e5);
+  border-bottom: 4px solid $rose-border;
+  box-shadow: 0 6px 12px rgba(224, 122, 168, 0.18);
+}
+
+.page,
+.page__content,
+.page__inner-wrap {
+  background: rgba(255, 255, 255, 0.92);
+  border: 2px dashed $rose-border;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(107, 63, 83, 0.08);
+}
+
+.page__title,
+.entry-title {
+  color: $rose-strong;
+}
+
+.btn--rose {
+  display: inline-block;
+  background: $rose-strong;
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid darken($rose-strong, 5%);
+  box-shadow: 0 4px 10px rgba(224, 122, 168, 0.3);
+}
+
+.btn--rose:hover,
+.btn--rose:focus {
+  background: darken($rose-strong, 5%);
+  color: #fff;
+}
+
+.dog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.dog-card {
+  background: rgba(255, 255, 255, 0.96);
+  border: 2px dotted $rose-border;
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: inset 0 0 0 4px rgba(255, 231, 242, 0.9);
+  position: relative;
+}
+
+.dog-card::before,
+.dog-card::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #ffe9f1;
+  border: 1px solid $rose-border;
+  border-radius: 50%;
+}
+
+.dog-card::before {
+  top: 10px;
+  left: 10px;
+}
+
+.dog-card::after {
+  bottom: 10px;
+  right: 10px;
+}
+
+.dog-card__title {
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: $rose-strong;
+  font-weight: 700;
+}
+
+.dog-card__meta {
+  font-size: 0.9rem;
+  color: lighten($rose-text, 15%);
+  margin-bottom: 0.5rem;
+}
+
+.dog-card__excerpt {
+  margin-bottom: 0.75rem;
+}
+
+blockquote {
+  border-left: 4px solid $rose-strong;
+  background: rgba(255, 217, 232, 0.4);
+  border-radius: 10px;
+}
+
+code,
+pre {
+  background: #ffe9f1;
+}
+
+.greedy-nav__toggle {
+  color: $rose-text;
+}

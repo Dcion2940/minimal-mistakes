@@ -59,6 +59,57 @@ en-GB:
 en-AU:
   <<: *DEFAULT_EN
 
+# Chinese (Traditional)
+# --------------------
+zh-TW:
+  skip_links                 : "跳到快速連結"
+  skip_primary_nav           : "跳到主選單"
+  skip_content               : "跳到內容"
+  skip_footer                : "跳到頁尾"
+  page                       : "頁次"
+  pagination_previous        : "上一頁"
+  pagination_next            : "下一頁"
+  breadcrumb_home_label      : "首頁"
+  breadcrumb_separator       : "/"
+  menu_label                 : "開啟選單"
+  search_label               : "開啟搜尋"
+  toc_label                  : "本頁重點"
+  ext_link_label             : "外部連結"
+  less_than                  : "少於"
+  minute_read                : "分鐘閱讀"
+  share_on_label             : "分享於"
+  meta_label                 :
+  tags_label                 : "標籤："
+  categories_label           : "分類："
+  date_label                 : "更新："
+  comments_label             : "留言"
+  comments_title             : "留言"
+  more_label                 : "看更多"
+  related_label              : "猜你也會喜歡"
+  follow_label               : "追蹤："
+  feed_label                 : "訂閱"
+  powered_by                 : "網站技術"
+  website_label              : "網站"
+  email_label                : "電子郵件"
+  recent_posts               : "最新文章"
+  undefined_wpm              : "words_per_minute 尚未在 _config.yml 設定"
+  comment_form_info          : "電子郵件不會公開，必填欄位已標示"
+  comment_form_comment_label : "留言內容"
+  comment_form_md_info       : "支援 Markdown"
+  comment_form_name_label    : "名字"
+  comment_form_email_label   : "電子郵件"
+  comment_form_website_label : "網站（選填）"
+  comment_btn_submit         : "送出留言"
+  comment_btn_submitted      : "已送出"
+  comment_success_msg        : "謝謝留言，審核後會在網站上出現！"
+  comment_error_msg          : "送出時發生錯誤，請確認必填欄位後再試一次。"
+  loading_label              : "載入中..."
+  search_label_text          : "輸入搜尋關鍵字..."
+  search_placeholder_text    : "輸入搜尋關鍵字..."
+  search_algolia_no_results  : "沒有找到結果"
+  results_found              : "筆結果"
+  back_to_top                : "回到頂端"
+
 # Spanish
 # -------
 es: &DEFAULT_ES
