@@ -82,3 +82,49 @@ a.btn:hover {
   background-color: #d46b98;
   border-color: #d46b98;
 }
+
+.dog-archive-item {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.dog-archive-item__image {
+  flex: 0 0 150px;
+}
+
+.dog-archive-item__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 4px double #e7a4c2;
+  box-shadow: 0 10px 22px rgba(63, 36, 48, 0.08);
+  background: #fff9fc;
+}
+
+.dog-archive-item__content {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+  .dog-archive-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .dog-archive-item__image {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 4px double #e7a4c2;
+  box-shadow: 0 10px 22px rgba(63, 36, 48, 0.08);
+  background: #fff9fc;
+}

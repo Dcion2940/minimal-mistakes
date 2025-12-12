@@ -8,6 +8,12 @@ header:
   overlay_color: "#f2c1dd"
   overlay_filter: "0.32"
   caption: "被黃金色的微笑治癒"
+dog_image: /assets/images/dogs/golden-retriever.svg
+dog_image_alt: "黃金獵犬插圖"
+author_profile: false
+sidebar:
+  - image: /assets/images/dogs/golden-retriever.svg
+    image_alt: "黃金獵犬插圖"
 ---
 
 ### 介紹

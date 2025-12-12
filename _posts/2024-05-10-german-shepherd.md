@@ -8,6 +8,12 @@ header:
   overlay_color: "#edadd4"
   overlay_filter: "0.32"
   caption: "和穩重的護衛建立默契"
+dog_image: /assets/images/dogs/german-shepherd.svg
+dog_image_alt: "德國牧羊犬插圖"
+author_profile: false
+sidebar:
+  - image: /assets/images/dogs/german-shepherd.svg
+    image_alt: "德國牧羊犬插圖"
 ---
 
 ### 介紹
