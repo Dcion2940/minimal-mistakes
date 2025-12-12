@@ -7,3 +7,50 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// Custom pink cottage style
+body {
+  background: linear-gradient(180deg, #fff6fb 0%, #ffeef5 100%);
+  color: #5c3a40;
+}
+
+.masthead, .greedy-nav {
+  background: linear-gradient(90deg, #f8c6dc 0%, #f7a8c9 100%);
+  box-shadow: 0 2px 6px rgba(212, 120, 162, 0.25);
+}
+
+.page__inner-wrap,
+.archive__item {
+  background: #ffffff;
+  border: 8px solid transparent;
+  border-image: repeating-linear-gradient(45deg, #f6c7da 0, #f6c7da 10px, #f9e3ed 10px, #f9e3ed 20px) 10;
+  border-radius: 18px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 14px rgba(185, 116, 149, 0.18);
+}
+
+.btn,
+.page__title,
+.masthead__menu-item > a {
+  color: #5c3a40;
+}
+
+a {
+  color: #c25d86;
+}
+
+a:hover,
+.masthead__menu-item > a:hover {
+  color: #a54c70;
+}
+
+.footer {
+  background: #fde4ef;
+  border-top: 6px dotted #f2aac8;
+}
+
+.sidebar {
+  background: #fff7fb;
+  border: 6px solid #f2d0e0;
+  border-radius: 14px;
+}
