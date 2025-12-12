@@ -114,6 +114,57 @@ es-ES:
 es-CO:
   <<: *DEFAULT_ES
 
+# Traditional Chinese
+# -------------------
+zh-TW: &DEFAULT_ZH_TW
+  skip_links                 : "跳到連結"
+  skip_primary_nav           : "跳到主選單"
+  skip_content               : "跳到內容"
+  skip_footer                : "跳到頁尾"
+  page                       : "頁次"
+  pagination_previous        : "上一頁"
+  pagination_next            : "下一頁"
+  breadcrumb_home_label      : "首頁"
+  breadcrumb_separator       : "/"
+  menu_label                 : "切換選單"
+  search_label               : "切換搜尋"
+  toc_label                  : "本頁摘要"
+  ext_link_label             : "直接連結"
+  less_than                  : "少於"
+  minute_read                : "分鐘閱讀"
+  share_on_label             : "分享至"
+  meta_label                 :
+  tags_label                 : "標籤："
+  categories_label           : "分類："
+  date_label                 : "更新："
+  comments_label             : "留言"
+  comments_title             : "留言版"
+  more_label                 : "繼續閱讀"
+  related_label              : "你可能也會喜歡"
+  follow_label               : "追蹤："
+  feed_label                 : "訂閱"
+  powered_by                 : "網站架設"
+  website_label              : "網站"
+  email_label                : "電子郵件"
+  recent_posts               : "最新文章"
+  undefined_wpm              : "_config.yml 尚未設定 words_per_minute"
+  comment_form_info          : "電子郵件不會公開。必填欄位已標示。"
+  comment_form_comment_label : "留言內容"
+  comment_form_md_info       : "支援 Markdown 語法。"
+  comment_form_name_label    : "名字"
+  comment_form_email_label   : "電子郵件地址"
+  comment_form_website_label : "網站（選填）"
+  comment_btn_submit         : "送出留言"
+  comment_btn_submitted      : "已送出"
+  comment_success_msg        : "謝謝你的留言，通過審核後將會顯示。"
+  comment_error_msg          : "提交失敗，請確認必填欄位後再試一次。"
+  loading_label              : "載入中..."
+  search_label_text          : "輸入想搜尋的內容..."
+  search_placeholder_text    : "輸入想搜尋的內容..."
+  search_algolia_no_results  : "沒有找到結果"
+  results_found              : "筆結果"
+  back_to_top                : "回到頂端"
+
 # French
 # ------
 fr: &DEFAULT_FR
