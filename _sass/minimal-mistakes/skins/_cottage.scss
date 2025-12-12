@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Cottage Pink skin
+   A soft pink, lace-inspired palette for a cozy countryside feel
+   ========================================================================== */
+
+/* Colors */
+$dark-gray: #3f2430 !default;
+$background-color: #fff7fb !default;
+$text-color: #4a2b36 !default;
+$muted-text-color: #6b4151 !default;
+$primary-color: #e87aa7 !default;
+$border-color: mix(#d889a7, $background-color, 55%) !default;
+$code-background-color: mix(#fff, $background-color, 18%) !default;
+$code-background-color-dark: mix(#d889a7, $background-color, 22%) !default;
+$form-background-color: mix(#fff, $background-color, 20%) !default;
+$footer-background-color: #f6d9e5 !default;
+$link-color: mix(#8f3c61, $primary-color, 60%) !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
+$link-color-visited: mix(#5d2a44, $link-color, 35%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#8f3c61, $text-color, 20%) !default;
+$navicon-link-color-hover: mix(#8f3c61, $background-color, 30%) !default;
+
+/* notices */
+$notice-background-mix: 78% !default;
+
+/* syntax highlighting (base16 inspired) */
+$base00: #231018 !default;
+$base01: #311724 !default;
+$base02: #402030 !default;
+$base03: #8f6d7b !default;
+$base04: #a27f8e !default;
+$base05: #b7919f !default;
+$base06: #e7d0da !default;
+$base07: #fff9fb !default;
+$base08: #d979a3 !default;
+$base09: #f0b3c8 !default;
+$base0a: #f3c8d8 !default;
+$base0b: #c6d38d !default;
+$base0c: #93c5c0 !default;
+$base0d: #7e82c2 !default;
+$base0e: #b58ac6 !default;
+$base0f: #d1a17a !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
