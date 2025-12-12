@@ -4,10 +4,15 @@ date: 2024-05-08 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [高智商, 運動, 牧羊]
 excerpt: "邊境牧羊犬以超高智商聞名，精力旺盛，需要充足的運動與動腦遊戲。"
+author_profile: false
 header:
   overlay_color: "#f1bad9"
   overlay_filter: "0.32"
   caption: "天才毛孩也需要溫柔的引導"
+  teaser: /assets/images/dogs/border-collie.svg
+sidebar:
+  - image: /assets/images/dogs/border-collie.svg
+    image_alt: "邊境牧羊犬的插畫照片"
 ---
 
 ### 介紹
