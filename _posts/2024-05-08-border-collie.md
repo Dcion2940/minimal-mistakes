@@ -8,6 +8,8 @@ header:
   overlay_color: "#f1bad9"
   overlay_filter: "0.32"
   caption: "天才毛孩也需要溫柔的引導"
+dog_image: /assets/images/dogs/border-collie.svg
+dog_image_alt: "邊境牧羊犬插圖"
 ---
 
 ### 介紹

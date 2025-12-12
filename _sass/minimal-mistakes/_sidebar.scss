@@ -71,6 +71,24 @@
   }
 }
 
+.sidebar--dog {
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0;
+
+  .sidebar__dog-photo {
+    width: 100%;
+
+    img {
+      display: block;
+      width: 100%;
+      border-radius: $border-radius;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+      object-fit: cover;
+    }
+  }
+}
+
 .sidebar__right {
   margin-bottom: 1em;
 

@@ -1,4 +1,12 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
+{% assign show_dog_image = page.dog_image %}
+
+{% if show_dog_image %}
+  <div class="sidebar sticky sidebar--dog">
+    <div class="sidebar__dog-photo">
+      <img src="{{ page.dog_image | relative_url }}" alt="{{ page.dog_image_alt | default: page.title }}">
+    </div>
+  </div>
+{% elsif page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
   {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
   {% if page.sidebar %}

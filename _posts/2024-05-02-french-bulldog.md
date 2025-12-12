@@ -8,6 +8,8 @@ header:
   overlay_color: "#f8e1ea"
   overlay_filter: "0.3"
   caption: "和鬥牛犬一起享受慵懶午茶時光"
+dog_image: /assets/images/dogs/french-bulldog.svg
+dog_image_alt: "法鬥插圖"
 ---
 
 ### 介紹

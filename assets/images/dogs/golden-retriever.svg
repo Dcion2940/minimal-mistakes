@@ -1,0 +1,17 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='640' height='480' viewBox='0 0 640 480' role='img' aria-label='黃金獵犬插圖'>
+  <defs>
+    <linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#fff1d6' stop-opacity='0.9'/>
+      <stop offset='100%' stop-color='#ffffff' stop-opacity='0.85'/>
+    </linearGradient>
+  </defs>
+  <rect width='640' height='480' fill='url(#g)' rx='24' ry='24'/>
+  <circle cx='200' cy='240' r='120' fill='rgba(255,255,255,0.7)' />
+  <path d='M180 200c-25 0-45 18-45 46 0 27 20 50 47 50h86c22 0 39-18 39-43 0-22-14-38-34-42-9-40-43-55-74-55-21 0-39 7-54 22z' fill='#5c4b51' opacity='0.7'/>
+  <circle cx='250' cy='215' r='14' fill='#fff'/>
+  <circle cx='248' cy='215' r='7' fill='#2d2d2d'/>
+  <path d='M130 235c-6 4-10 13-5 21 5 8 14 9 22 5 9-5 14-16 9-23-6-8-16-6-26-3z' fill='#f5c78a' opacity='0.75'/>
+  <path d='M250 305c-4 10-2 21 7 27 10 7 24 5 32-5 8-9 7-24-3-32-9-8-25-4-36 10z' fill='#f5c78a' opacity='0.75'/>
+  <text x='340' y='230' font-size='46' font-family='"Noto Sans TC", "Microsoft JhengHei", sans-serif' fill='#4a2c2a' font-weight='700'>黃金獵犬</text>
+  <text x='340' y='280' font-size='26' font-family='"Noto Sans", sans-serif' fill='#6b4a3d'>溫馨狗狗插圖</text>
+</svg>
