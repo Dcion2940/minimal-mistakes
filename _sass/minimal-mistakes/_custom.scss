@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600&family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Noto Serif TC', 'Nunito', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  background-color: $background-color;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.9) 0, rgba(255, 255, 255, 0) 22%),
+    radial-gradient(circle at 90% 10%, rgba(255, 235, 244, 0.9) 0, rgba(255, 235, 244, 0) 25%),
+    linear-gradient(135deg, rgba(243, 198, 212, 0.35) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(243, 198, 212, 0.35) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(243, 198, 212, 0.35) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(243, 198, 212, 0.35) 25%, $background-color 25%);
+  background-size: 120px 120px, 150px 150px, 16px 16px, 16px 16px, 16px 16px, 16px 16px;
+  background-position: 0 0, 100% 0, 0 0, 0 8px, 8px -8px, -8px 0;
+  color: $text-color;
+}
+
+.masthead,
+.page__footer {
+  background: mix(#fff, $background-color, 60%);
+  border-top: 10px double $border-color;
+  border-bottom: 10px double $border-color;
+  box-shadow: inset 0 -12px 0 rgba(233, 164, 186, 0.18);
+}
+
+.masthead__inner-wrap,
+.page__footer-inner {
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+}
+
+.nav__item a {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.page,
+.archive,
+.home {
+  background: rgba(255, 255, 255, 0.94);
+  border: 6px double $border-color;
+  border-radius: 22px;
+  box-shadow: 0 12px 32px rgba(102, 56, 74, 0.12);
+  padding: 2rem;
+}
+
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4 {
+  font-family: 'Nunito', 'Noto Serif TC', sans-serif;
+  color: $primary-color;
+  letter-spacing: 0.02em;
+}
+
+.page__content a {
+  border-bottom: 2px dotted $border-color;
+}
+
+.btn,
+input[type="submit"],
+button {
+  border-radius: 999px;
+  background: linear-gradient(120deg, lighten($primary-color, 8%), $primary-color);
+  border: none;
+  box-shadow: 0 6px 18px rgba(212, 113, 148, 0.35);
+}
+
+.side-bar {
+  background: rgba(255, 255, 255, 0.8);
+  border: 4px double $border-color;
+  border-radius: 18px;
+  box-shadow: 0 8px 22px rgba(102, 56, 74, 0.1);
+}
+
+blockquote {
+  border-left: 8px double $border-color;
+  background: rgba(243, 198, 212, 0.2);
+}
+
+.pagination {
+  font-family: 'Nunito', sans-serif;
+}
+
+::selection {
+  background: mix(#fff, $primary-color, 20%);
+  color: $dark-gray;
+}

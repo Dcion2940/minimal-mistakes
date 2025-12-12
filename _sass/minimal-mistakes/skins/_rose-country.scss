@@ -1,0 +1,50 @@
+/* ==========================================================================
+   Rose Country skin
+   粉色鄉村風，柔和花邊氣氛
+   ========================================================================== */
+
+/* Colors */
+$dark-gray: #3f2831 !default;
+$background-color: #fff5f8 !default;
+$text-color: #4a2b33 !default;
+$muted-text-color: #8c6273 !default;
+$primary-color: #e37aa0 !default;
+$border-color: #f3c6d4 !default;
+$code-background-color: mix(#fff, $background-color, 10%) !default;
+$code-background-color-dark: mix(#000, $background-color, 12%) !default;
+$form-background-color: mix(#fff, $background-color, 5%) !default;
+$footer-background-color: #f8d9e3 !default;
+$link-color: #d95f8c !default;
+$link-color-hover: mix(#fff, $link-color, 15%) !default;
+$link-color-visited: mix(#000, $link-color, 18%) !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: mix(#000, $text-color, 10%) !default;
+$navicon-link-color-hover: mix(#000, $background-color, 25%) !default;
+
+/* notices */
+$notice-background-mix: 80% !default;
+
+/* rose-country syntax highlighting (soft rose base16) */
+$base00: #1e1518 !default;
+$base01: #2a1c21 !default;
+$base02: #3b2730 !default;
+$base03: #7f606c !default;
+$base04: #b48a9c !default;
+$base05: #d5b5c4 !default;
+$base06: #f2dce5 !default;
+$base07: #ffffff !default;
+$base08: #d86b92 !default;
+$base09: #e29e67 !default;
+$base0a: #f0c987 !default;
+$base0b: #a6c07f !default;
+$base0c: #8fc7c1 !default;
+$base0d: #89a6d1 !default;
+$base0e: #c096d9 !default;
+$base0f: #c07c5b !default;
+
+.author__urls.social-icons i,
+.author__urls.social-icons .svg-inline--fa,
+.page__footer-follow .social-icons i,
+.page__footer-follow .social-icons .svg-inline--fa  {
+  color: inherit;
+}
