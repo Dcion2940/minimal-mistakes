@@ -4,6 +4,12 @@ date: 2024-05-07 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [家庭, 陪伴, 穩定]
 excerpt: "黃金獵犬溫柔穩定又包容，是陪伴孩子和家人的最佳暖陽。"
+dog_image: https://images.dog.ceo/breeds/retriever-golden/n02099601_3009.jpg
+dog_image_alt: "黃金獵犬照片"
+sidebar:
+  - image: https://images.dog.ceo/breeds/retriever-golden/n02099601_3009.jpg
+    image_alt: "黃金獵犬照片"
+    image_class: sidebar__photo
 header:
   overlay_color: "#f2c1dd"
   overlay_filter: "0.32"

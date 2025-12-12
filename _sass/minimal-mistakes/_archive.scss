@@ -128,6 +128,35 @@
   }
 }
 
+.archive__item--with-image {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+
+  @include breakpoint(max-width $small) {
+    flex-direction: column;
+  }
+}
+
+.archive__item-dog-photo {
+  flex: 0 0 140px;
+  max-width: 140px;
+  border-radius: $border-radius;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.archive__item--with-image .archive__item-body {
+  flex: 1;
+}
+
 /*
    Grid view
    ========================================================================== */

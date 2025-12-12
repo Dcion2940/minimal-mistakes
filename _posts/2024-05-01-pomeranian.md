@@ -4,6 +4,12 @@ date: 2024-05-01 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [小型犬, 陪伴, 警覺]
 excerpt: "博美犬體型嬌小卻自信滿滿，蓬鬆毛量和靈動眼神讓牠成為家中的小小守護者。"
+dog_image: https://images.dog.ceo/breeds/pomeranian/n02112018_6850.jpg
+dog_image_alt: "博美犬照片"
+sidebar:
+  - image: https://images.dog.ceo/breeds/pomeranian/n02112018_6850.jpg
+    image_alt: "博美犬照片"
+    image_class: sidebar__photo
 header:
   overlay_color: "#f8e9f1"
   overlay_filter: "0.3"

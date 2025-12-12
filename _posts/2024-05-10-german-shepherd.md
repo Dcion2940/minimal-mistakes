@@ -4,6 +4,12 @@ date: 2024-05-10 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [守護, 訓練, 大型犬]
 excerpt: "德國牧羊犬忠誠警覺，是知名的工作犬與守護犬，需要規律的訓練與活動。"
+dog_image: https://images.dog.ceo/breeds/germanshepherd/n02106662_1000.jpg
+dog_image_alt: "德國牧羊犬照片"
+sidebar:
+  - image: https://images.dog.ceo/breeds/germanshepherd/n02106662_1000.jpg
+    image_alt: "德國牧羊犬照片"
+    image_class: sidebar__photo
 header:
   overlay_color: "#edadd4"
   overlay_filter: "0.32"
