@@ -1,0 +1,43 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 520' width='800' height='520' role='img' aria-label='柴犬 的插畫照片'>
+  <defs>
+    <linearGradient id='shiba_inu_bg' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#ffe9d2' stop-opacity='0.95'/>
+      <stop offset='100%' stop-color='#f2a54c' stop-opacity='0.95'/>
+    </linearGradient>
+    <linearGradient id='shiba_inu_accent' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#f2a54c' stop-opacity='0.85'/>
+      <stop offset='100%' stop-color='#ffe9d2' stop-opacity='0.95'/>
+    </linearGradient>
+  </defs>
+  <rect width='800' height='520' fill='url(#shiba_inu_bg)' rx='32'/>
+  <g fill='white' fill-opacity='0.38'>
+    <circle cx='80' cy='80' r='10'/>
+    <circle cx='100' cy='70' r='8'/>
+    <circle cx='88' cy='58' r='7'/>
+    <circle cx='110' cy='88' r='7'/>
+    <circle cx='660' cy='120' r='12'/>
+    <circle cx='680' cy='106' r='8'/>
+    <circle cx='668' cy='94' r='7'/>
+    <circle cx='690' cy='128' r='7'/>
+    <circle cx='200' cy='430' r='12'/>
+    <circle cx='222' cy='414' r='9'/>
+    <circle cx='210' cy='398' r='7'/>
+    <circle cx='232' cy='444' r='7'/>
+  </g>
+  <g transform='translate(180 170) scale(1.15)'>
+    <path d='M80 120 C110 90, 170 90, 190 120 L210 160 C230 190, 230 230, 220 250 L120 250 C90 250, 60 220, 60 190 L60 150 Z' fill='url(#shiba_inu_accent)' stroke='rgba(0,0,0,0.08)' stroke-width='4' />
+    <circle cx='70' cy='120' r='46' fill='white' fill-opacity='0.9' stroke='rgba(0,0,0,0.08)' stroke-width='4'/>
+    <circle cx='70' cy='132' r='6' fill='#444' />
+    <path d='M52 110 Q70 88 90 108' stroke='#444' stroke-width='5' fill='none' stroke-linecap='round'/>
+    <path d='M54 88 L40 70 Q70 60 88 78 Z' fill='#333' fill-opacity='0.8'/>
+    <path d='M190 130 C240 140, 260 150, 280 180 C300 210, 300 240, 280 250 L220 250 C210 230, 210 200, 198 178 Z' fill='white' fill-opacity='0.86' stroke='rgba(0,0,0,0.08)' stroke-width='4'/>
+    <path d='M220 110 Q240 80 260 104 L250 140 L220 132 Z' fill='#333' fill-opacity='0.78'/>
+    <circle cx='245' cy='160' r='7' fill='#444'/>
+    <path d='M160 250 L152 300 Q150 320 180 320 L220 320 Q246 320 240 296 L230 250 Z' fill='url(#shiba_inu_accent)' stroke='rgba(0,0,0,0.08)' stroke-width='4'/>
+    <path d='M100 250 L92 300 Q90 320 120 320 L160 320 Q186 320 180 296 L170 250 Z' fill='url(#shiba_inu_accent)' stroke='rgba(0,0,0,0.08)' stroke-width='4'/>
+    <path d='M120 250 L126 210 C130 190 140 180 160 180 C180 180 190 190 196 210 L202 250 Z' fill='white' fill-opacity='0.9' stroke='rgba(0,0,0,0.08)' stroke-width='4'/>
+  </g>
+  <text x='420' y='122' fill='#2f1a28' font-size='42' font-family='"Noto Sans TC", "Hiragino Sans", "Helvetica", sans-serif' font-weight='700'>柴犬</text>
+  <text x='420' y='168' fill='#3f2b3a' font-size='20' font-family='"Noto Sans TC", "Helvetica", sans-serif' opacity='0.85'>溫柔的手繪感小照片</text>
+</svg>

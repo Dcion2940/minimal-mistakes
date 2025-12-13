@@ -4,10 +4,15 @@ date: 2024-05-02 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [陪伴, 室內, 鬥牛犬]
 excerpt: "法國鬥牛犬個性溫和又黏人，最擅長用穩定的陪伴治癒忙碌的家人。"
+author_profile: false
 header:
   overlay_color: "#f8e1ea"
   overlay_filter: "0.3"
   caption: "和鬥牛犬一起享受慵懶午茶時光"
+  teaser: https://ik.imagekit.io/dcion2940/dogs/法國鬥牛犬1.png
+sidebar:
+  - image: https://ik.imagekit.io/dcion2940/dogs/法國鬥牛犬1.png
+    image_alt: "法國鬥牛犬的照片"
 ---
 
 ### 介紹
