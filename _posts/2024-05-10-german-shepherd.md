@@ -11,8 +11,8 @@ header:
   caption: "和穩重的護衛建立默契"
   teaser: /assets/images/dogs/german-shepherd.svg
 sidebar:
-  - image: /assets/images/dogs/german-shepherd.svg
-    image_alt: "德國牧羊犬的插畫照片"
+  - image: /assets/dogs/德國牧羊犬1.png
+    image_alt: "德國牧羊犬的照片"
 ---
 
 ### 介紹

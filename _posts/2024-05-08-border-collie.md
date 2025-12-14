@@ -11,8 +11,8 @@ header:
   caption: "天才毛孩也需要溫柔的引導"
   teaser: /assets/images/dogs/border-collie.svg
 sidebar:
-  - image: /assets/images/dogs/border-collie.svg
-    image_alt: "邊境牧羊犬的插畫照片"
+  - image: /assets/dogs/邊境牧羊犬1.png
+    image_alt: "邊境牧羊犬的照片"
 ---
 
 ### 介紹

@@ -11,8 +11,8 @@ header:
   caption: "被黃金色的微笑治癒"
   teaser: /assets/images/dogs/golden-retriever.svg
 sidebar:
-  - image: /assets/images/dogs/golden-retriever.svg
-    image_alt: "黃金獵犬的插畫照片"
+  - image: /assets/dogs/拉布拉多1.png
+    image_alt: "黃金獵犬的照片"
 ---
 
 ### 介紹
