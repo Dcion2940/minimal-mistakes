@@ -87,7 +87,7 @@ gallery_images:
 <div class="dog-gallery-grid">
   {% for photo in page.gallery_images %}
   <figure class="dog-gallery-item">
-    <img src="/assets/dogs/{{ photo.file }}" alt="{{ photo.alt }}">
+    <img src="{{ '/assets/dogs/' | append: photo.file | relative_url }}" alt="{{ photo.alt }}">
     <figcaption>{{ photo.caption }}</figcaption>
   </figure>
   {% endfor %}
