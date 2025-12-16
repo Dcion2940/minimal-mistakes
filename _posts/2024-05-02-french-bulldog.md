@@ -9,9 +9,9 @@ header:
   overlay_color: "#f8e1ea"
   overlay_filter: "0.3"
   caption: "和鬥牛犬一起享受慵懶午茶時光"
-  teaser: /assets/dogs/法國鬥牛犬1.png
+  teaser: /assets/dogs/法國鬥牛犬2.png
 sidebar:
-  - image: /assets/dogs/法國鬥牛犬1.png
+  - image: /assets/dogs/法國鬥牛犬2.png
     image_alt: "法國鬥牛犬的照片"
 ---
 

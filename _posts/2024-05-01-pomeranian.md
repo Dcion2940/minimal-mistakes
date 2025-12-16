@@ -9,9 +9,9 @@ header:
   overlay_color: "#f8e9f1"
   overlay_filter: "0.3"
   caption: "一起感受博美犬的柔軟和熱情"
-  teaser: /assets/dogs/博美犬1.png
+  teaser: /assets/dogs/博美犬2.png
 sidebar:
-  - image: /assets/dogs/博美犬1.png
+  - image: /assets/dogs/博美犬2.png
     image_alt: "博美犬的照片"
 ---
 
