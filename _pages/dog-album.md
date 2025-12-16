@@ -9,8 +9,6 @@ header:
   caption: "每一次按下快門的甜蜜"
 ---
 
-這本相簿會自動收集 `assets/dogs` 目錄下的所有照片，新增或刪除檔案後只要重新部署網站，相簿就會同步更新，永遠和你的最新收藏保持一致。
-
 {% assign dog_photos = site.static_files
   | where_exp: "file", "file.path contains '/assets/dogs/'"
   | where_exp: "file", "file.extname != '.md'"
@@ -19,10 +17,48 @@ header:
 {% if dog_photos.size > 0 %}
 > 目前共有 **{{ dog_photos.size }}** 張照片，拉到下方細細欣賞吧！
 
-<div class="gallery">
+<style>
+  .dog-album-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.25rem;
+    align-items: start;
+  }
+
+  @media (max-width: 900px) {
+    .dog-album-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 600px) {
+    .dog-album-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .dog-album-grid figure {
+    margin: 0;
+  }
+
+  .dog-album-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    display: block;
+  }
+
+  .dog-album-grid figcaption {
+    margin-top: 0.35rem;
+    text-align: center;
+    font-weight: 600;
+  }
+</style>
+
+<div class="dog-album-grid">
   {% for photo in dog_photos %}
     {% assign photo_label = photo.name | remove: photo.extname %}
-    <figure class="third">
+    <figure>
       <a href="{{ photo.path | relative_url }}">
         <img src="{{ photo.path | relative_url }}" alt="{{ photo_label }} 的照片">
       </a>
