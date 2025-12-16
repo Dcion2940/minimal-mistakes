@@ -3,16 +3,16 @@ title: "德國牧羊犬：忠誠穩重的守護者"
 date: 2024-05-10 10:00:00 +0800
 categories: [狗狗圖鑑]
 tags: [守護, 訓練, 大型犬]
-excerpt: "德國牧羊犬忠誠警覺，是知名的工作犬與守護犬，需要規律的訓練與活動。"
+excerpt: "德國牧羊犬忠誠警覺，是知名的工作犬，需要規律訓練與活動。"
 author_profile: false
 header:
   overlay_color: "#edadd4"
   overlay_filter: "0.32"
   caption: "和穩重的護衛建立默契"
-  teaser: /assets/images/dogs/german-shepherd.svg
+  teaser: /assets/dogs/德國牧羊犬2.png
 sidebar:
-  - image: /assets/images/dogs/german-shepherd.svg
-    image_alt: "德國牧羊犬的插畫照片"
+  - image: /assets/dogs/德國牧羊犬2.png
+    image_alt: "德國牧羊犬的照片"
 ---
 
 ### 介紹

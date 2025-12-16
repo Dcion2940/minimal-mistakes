@@ -9,10 +9,10 @@ header:
   overlay_color: "#f8e9f1"
   overlay_filter: "0.3"
   caption: "一起感受博美犬的柔軟和熱情"
-  teaser: /assets/images/dogs/pomeranian.svg
+  teaser: /assets/dogs/博美犬2.png
 sidebar:
-  - image: /assets/images/dogs/pomeranian.svg
-    image_alt: "博美犬的插畫照片"
+  - image: /assets/dogs/博美犬2.png
+    image_alt: "博美犬的照片"
 ---
 
 ### 介紹

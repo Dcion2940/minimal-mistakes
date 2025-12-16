@@ -4,5 +4,7 @@ main:
     url: /
   - title: "狗狗圖鑑"
     url: /dogs/
+  - title: "狗狗相簿"
+    url: /album/
   - title: "關於媽咪"
     url: /about/

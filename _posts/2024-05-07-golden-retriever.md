@@ -9,10 +9,10 @@ header:
   overlay_color: "#f2c1dd"
   overlay_filter: "0.32"
   caption: "被黃金色的微笑治癒"
-  teaser: /assets/images/dogs/golden-retriever.svg
+  teaser: /assets/dogs/黃金獵犬2.png
 sidebar:
-  - image: /assets/images/dogs/golden-retriever.svg
-    image_alt: "黃金獵犬的插畫照片"
+  - image: /assets/dogs/黃金獵犬2.png
+    image_alt: "黃金獵犬的照片"
 ---
 
 ### 介紹
