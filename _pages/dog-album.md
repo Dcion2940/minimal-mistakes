@@ -39,17 +39,22 @@ header:
 
   .dog-album-grid figure {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
   }
 
   .dog-album-grid img {
-    width: 100%;
-    height: auto;
+    width: 240px;
+    height: 240px;
     border-radius: 0.5rem;
     display: block;
+    object-fit: cover;
+    object-position: center;
   }
 
   .dog-album-grid figcaption {
-    margin-top: 0.35rem;
     text-align: center;
     font-weight: 600;
   }

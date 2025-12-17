@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "cottage" # "air", "aqua", "contrast", "dark", "dirt"
 # Site Settings
 locale                   : "zh-TW"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "浪漫狗狗小天地"
+title                    : "狗狗小天地"
 title_separator          : "-"
 subtitle                 : "用粉色花邊記錄每一隻可愛狗狗"
-name                     : "暖心媽咪"
+name                     : "暖心爸爸"
 description              : "粉色鄉村風的狗狗圖鑑，陪孩子一起閱讀、想像與微笑。"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -113,7 +113,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "暖心媽咪"
+  name             : "暖心爸爸"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "以粉色、花邊和故事陪伴女兒認識十種可愛狗狗。"
   location         : "花園裡的小書桌"
