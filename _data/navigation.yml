@@ -6,5 +6,5 @@ main:
     url: /dogs/
   - title: "狗狗相簿"
     url: /album/
-  - title: "關於媽咪"
+  - title: "關於爸爸"
     url: /about/
