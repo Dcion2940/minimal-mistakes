@@ -11,8 +11,16 @@ header:
 
 {% assign dog_photos = site.static_files
   | where_exp: "file", "file.path contains '/assets/dogs/'"
-  | where_exp: "file", "file.extname != '.md'"
-  | sort: "path" %}
+  | where_exp: "file", "file.extname != '.md'" %}
+
+{% assign base_order = "邊境牧羊犬,德國牧羊犬,黃金獵犬,法國鬥牛犬,米格魯,貴賓犬,拉布拉多,博美犬,哈士奇,柴犬" | split: "," %}
+{% assign sorted_dog_photos = "" | split: "" %}
+{% for base in base_order %}
+  {% assign matches = dog_photos | where_exp: "file", "file.name contains base" | sort: "name" %}
+  {% assign sorted_dog_photos = sorted_dog_photos | concat: matches %}
+{% endfor %}
+
+{% assign dog_photos = sorted_dog_photos %}
 
 {% if dog_photos.size > 0 %}
 > 目前共有 **{{ dog_photos.size }}** 張照片，拉到下方細細欣賞吧！
@@ -39,17 +47,22 @@ header:
 
   .dog-album-grid figure {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
   }
 
   .dog-album-grid img {
-    width: 100%;
-    height: auto;
+    width: 240px;
+    height: 240px;
     border-radius: 0.5rem;
     display: block;
+    object-fit: cover;
+    object-position: center;
   }
 
   .dog-album-grid figcaption {
-    margin-top: 0.35rem;
     text-align: center;
     font-weight: 600;
   }
